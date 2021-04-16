@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 14, 2021 at 09:31 AM
+-- Generation Time: Apr 16, 2021 at 10:26 AM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.3.17
 
@@ -143,13 +143,13 @@ ALTER TABLE `bookmark`
 -- AUTO_INCREMENT for table `konten`
 --
 ALTER TABLE `konten`
-  MODIFY `id_file` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id_file` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `materi`
 --
 ALTER TABLE `materi`
-  MODIFY `id_materi` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id_materi` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `playlist_belajar`
