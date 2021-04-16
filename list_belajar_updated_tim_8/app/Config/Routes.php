@@ -39,6 +39,7 @@ $routes->post('materibelajar/(:num)', 'MateriBelajar::update/$1');
 $routes->resource('materibelajar');
 
 // custom
+$routes->get('index_playlist/(:num)', 'Playlistbelajar::index_playlist/$1');
 $routes->get('list_bookmarked/(:num)', 'Bookmark::list_bookmarked/$1');
 $routes->get('delete_bookmarked/(:num)/(:num)', 'Bookmark::delete_bookmarked/$1/$2');
 

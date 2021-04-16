@@ -16,8 +16,9 @@ class PlaylistBelajar extends ResourceController
     // get all data
     public function index()
     {
-        $db = \Config\Database::connect();
-	    $data = $db->query("SELECT a.*, b.marked_at FROM `playlist_belajar` AS a LEFT JOIN `bookmark` AS b ON a.id_playlist = b.id_playlist ORDER BY a.id_playlist")->getResultArray();
+        $model = new PlaylistBelajarModel();
+        $data = $model->findAll();
+
         return $this->respond($data);
     }
 
@@ -188,5 +189,36 @@ class PlaylistBelajar extends ResourceController
         } else {
             return $this->failNotFound('No Data Found with playlist id ' . $id);
         }
+    }
+
+    public function index_playlist($id_akun = null)
+    {
+        $db = \Config\Database::connect();
+
+        // Get Playlist Data and Bookmarked Status
+        $query = "SELECT a.*, b.marked_at FROM `playlist_belajar` AS a LEFT JOIN `bookmark` AS b ON a.id_playlist = b.id_playlist AND b.id_akun = $id_akun ORDER BY a.id_playlist";
+	    $data = $db->query($query)->getResultArray();
+
+        // Count Total Bookmarked Playlist
+        $count_bookmarked = "SELECT DISTINCT id_playlist, count(id_playlist) AS c FROM `bookmark` GROUP BY id_playlist ORDER BY id_playlist";
+        $count = (array)$db->query($count_bookmarked)->getResultArray();
+
+        // Convert to Array
+        $data = (array)$data;
+        
+        // Assign 'bookmarked_count' Property to $data If Playlist Bookmarked By User or Another User
+        for ($i = 0; $i < count($data); $i++)
+        {
+            for ($j = 0; $j < count($count); $j++)
+            {
+                if ($data[$i]['id_playlist'] == $count[$j]['id_playlist'])
+                    $data[$i]['bookmarked_count'] = $count[$i]['c'];
+            }
+        }
+
+        // Convert Back to Object
+        $data = (object)$data;
+        
+        return $this->respond($data);
     }
 }
