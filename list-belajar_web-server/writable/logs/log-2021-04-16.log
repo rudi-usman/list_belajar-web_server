@@ -1,0 +1,18 @@
+CRITICAL - 2021-04-16 02:20:47 --> unlink(../public/files/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(../publi...', 'C:\\xampp\\htdocs...', 186, Array)
+#1 C:\xampp\htdocs\mejakita_list_belajar\app\Controllers\MateriBelajar.php(186): unlink('../public/files...')
+#2 C:\xampp\htdocs\mejakita_list_belajar\system\CodeIgniter.php(918): App\Controllers\MateriBelajar->delete('2')
+#3 C:\xampp\htdocs\mejakita_list_belajar\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriBelajar))
+#4 C:\xampp\htdocs\mejakita_list_belajar\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mejakita_list_belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\mejakita_list_belajar\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-04-16 02:22:19 --> unlink(../public/files/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(../publi...', 'C:\\xampp\\htdocs...', 187, Array)
+#1 C:\xampp\htdocs\mejakita_list_belajar\app\Controllers\MateriBelajar.php(187): unlink('../public/files...')
+#2 C:\xampp\htdocs\mejakita_list_belajar\system\CodeIgniter.php(918): App\Controllers\MateriBelajar->delete('2')
+#3 C:\xampp\htdocs\mejakita_list_belajar\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriBelajar))
+#4 C:\xampp\htdocs\mejakita_list_belajar\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mejakita_list_belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\mejakita_list_belajar\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}

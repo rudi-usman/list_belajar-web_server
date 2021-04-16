@@ -1,0 +1,209 @@
+CRITICAL - 2021-04-09 02:46:02 --> Operand should contain 1 column(s)
+#0 F:\XAMPP7\htdocs\mejakita_list_belajar\system\Database\MySQLi\Connection.php(331): mysqli->query('UPDATE `materi`...')
+#1 F:\XAMPP7\htdocs\mejakita_list_belajar\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `materi`...')
+#2 F:\XAMPP7\htdocs\mejakita_list_belajar\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `materi`...')
+#3 F:\XAMPP7\htdocs\mejakita_list_belajar\system\Database\BaseBuilder.php(2456): CodeIgniter\Database\BaseConnection->query('UPDATE `materi`...', Array, false)
+#4 F:\XAMPP7\htdocs\mejakita_list_belajar\system\Model.php(889): CodeIgniter\Database\BaseBuilder->update()
+#5 F:\XAMPP7\htdocs\mejakita_list_belajar\app\Controllers\MateriBelajar.php(93): CodeIgniter\Model->update(Array, Array)
+#6 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(918): App\Controllers\MateriBelajar->update('2')
+#7 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriBelajar))
+#8 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 F:\XAMPP7\htdocs\mejakita_list_belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 F:\XAMPP7\htdocs\mejakita_list_belajar\system\Commands\Server\rewrite.php(34): require_once('F:\\XAMPP7\\htdoc...')
+#11 {main}
+CRITICAL - 2021-04-09 04:33:45 --> Undefined index: id_playlist
+#0 F:\XAMPP7\htdocs\mejakita_list_belajar\app\Controllers\MateriBelajar.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'F:\\XAMPP7\\htdoc...', 92, Array)
+#1 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(918): App\Controllers\MateriBelajar->update('2')
+#2 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriBelajar))
+#3 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\XAMPP7\htdocs\mejakita_list_belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 F:\XAMPP7\htdocs\mejakita_list_belajar\system\Commands\Server\rewrite.php(34): require_once('F:\\XAMPP7\\htdoc...')
+#6 {main}
+CRITICAL - 2021-04-09 04:33:55 --> Undefined index: id_playlist
+#0 F:\XAMPP7\htdocs\mejakita_list_belajar\app\Controllers\MateriBelajar.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'F:\\XAMPP7\\htdoc...', 92, Array)
+#1 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(918): App\Controllers\MateriBelajar->update('2')
+#2 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriBelajar))
+#3 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\XAMPP7\htdocs\mejakita_list_belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 F:\XAMPP7\htdocs\mejakita_list_belajar\system\Commands\Server\rewrite.php(34): require_once('F:\\XAMPP7\\htdoc...')
+#6 {main}
+CRITICAL - 2021-04-09 04:34:27 --> Undefined index: id_playlist
+#0 F:\XAMPP7\htdocs\mejakita_list_belajar\app\Controllers\MateriBelajar.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'F:\\XAMPP7\\htdoc...', 92, Array)
+#1 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(918): App\Controllers\MateriBelajar->update('2')
+#2 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriBelajar))
+#3 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\XAMPP7\htdocs\mejakita_list_belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 F:\XAMPP7\htdocs\mejakita_list_belajar\system\Commands\Server\rewrite.php(34): require_once('F:\\XAMPP7\\htdoc...')
+#6 {main}
+CRITICAL - 2021-04-09 06:27:48 --> Call to a member function countAllResults() on array
+#0 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(918): App\Controllers\Bookmark->show('1')
+#1 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bookmark))
+#2 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 F:\XAMPP7\htdocs\mejakita_list_belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 F:\XAMPP7\htdocs\mejakita_list_belajar\system\Commands\Server\rewrite.php(34): require_once('F:\\XAMPP7\\htdoc...')
+#5 {main}
+CRITICAL - 2021-04-09 06:29:11 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAllResults()
+#0 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(918): App\Controllers\Bookmark->show('1')
+#1 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bookmark))
+#2 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 F:\XAMPP7\htdocs\mejakita_list_belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 F:\XAMPP7\htdocs\mejakita_list_belajar\system\Commands\Server\rewrite.php(34): require_once('F:\\XAMPP7\\htdoc...')
+#5 {main}
+CRITICAL - 2021-04-09 06:29:55 --> Call to a member function countAllResults() on array
+#0 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(918): App\Controllers\Bookmark->show('1')
+#1 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bookmark))
+#2 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 F:\XAMPP7\htdocs\mejakita_list_belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 F:\XAMPP7\htdocs\mejakita_list_belajar\system\Commands\Server\rewrite.php(34): require_once('F:\\XAMPP7\\htdoc...')
+#5 {main}
+CRITICAL - 2021-04-09 06:30:39 --> Call to a member function countAll() on array
+#0 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(918): App\Controllers\Bookmark->show('1')
+#1 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bookmark))
+#2 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 F:\XAMPP7\htdocs\mejakita_list_belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 F:\XAMPP7\htdocs\mejakita_list_belajar\system\Commands\Server\rewrite.php(34): require_once('F:\\XAMPP7\\htdoc...')
+#5 {main}
+CRITICAL - 2021-04-09 06:37:25 --> Call to a member function num_rows() on array
+#0 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(918): App\Controllers\Bookmark->show('1')
+#1 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bookmark))
+#2 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 F:\XAMPP7\htdocs\mejakita_list_belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 F:\XAMPP7\htdocs\mejakita_list_belajar\system\Commands\Server\rewrite.php(34): require_once('F:\\XAMPP7\\htdoc...')
+#5 {main}
+CRITICAL - 2021-04-09 06:37:48 --> Undefined index: id_playlist
+#0 F:\XAMPP7\htdocs\mejakita_list_belajar\app\Controllers\Bookmark.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'F:\\XAMPP7\\htdoc...', 25, Array)
+#1 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(918): App\Controllers\Bookmark->show('1')
+#2 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bookmark))
+#3 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\XAMPP7\htdocs\mejakita_list_belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 F:\XAMPP7\htdocs\mejakita_list_belajar\system\Commands\Server\rewrite.php(34): require_once('F:\\XAMPP7\\htdoc...')
+#6 {main}
+CRITICAL - 2021-04-09 06:39:17 --> Call to a member function num_rows() on array
+#0 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(918): App\Controllers\Bookmark->show('1')
+#1 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bookmark))
+#2 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 F:\XAMPP7\htdocs\mejakita_list_belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 F:\XAMPP7\htdocs\mejakita_list_belajar\system\Commands\Server\rewrite.php(34): require_once('F:\\XAMPP7\\htdoc...')
+#5 {main}
+CRITICAL - 2021-04-09 06:58:40 --> Call to undefined method App\Models\BookmarkModel::num_rows
+#0 F:\XAMPP7\htdocs\mejakita_list_belajar\app\Models\BookmarkModel.php(17): CodeIgniter\Model->__call('num_rows', Array)
+#1 F:\XAMPP7\htdocs\mejakita_list_belajar\app\Controllers\Bookmark.php(25): App\Models\BookmarkModel->countdata('1')
+#2 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(918): App\Controllers\Bookmark->show('1')
+#3 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bookmark))
+#4 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 F:\XAMPP7\htdocs\mejakita_list_belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 F:\XAMPP7\htdocs\mejakita_list_belajar\system\Commands\Server\rewrite.php(34): require_once('F:\\XAMPP7\\htdoc...')
+#7 {main}
+CRITICAL - 2021-04-09 07:05:01 --> Undefined variable: query
+#0 F:\XAMPP7\htdocs\mejakita_list_belajar\app\Models\BookmarkModel.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'F:\\XAMPP7\\htdoc...', 18, Array)
+#1 F:\XAMPP7\htdocs\mejakita_list_belajar\app\Controllers\Bookmark.php(25): App\Models\BookmarkModel->countdata('1')
+#2 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(918): App\Controllers\Bookmark->show('1')
+#3 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bookmark))
+#4 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 F:\XAMPP7\htdocs\mejakita_list_belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 F:\XAMPP7\htdocs\mejakita_list_belajar\system\Commands\Server\rewrite.php(34): require_once('F:\\XAMPP7\\htdoc...')
+#7 {main}
+CRITICAL - 2021-04-09 08:29:33 --> Undefined index: views
+#0 F:\XAMPP7\htdocs\mejakita_list_belajar\app\Controllers\PlaylistBelajar.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'F:\\XAMPP7\\htdoc...', 66, Array)
+#1 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(918): App\Controllers\PlaylistBelajar->update('1')
+#2 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistBelajar))
+#3 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\XAMPP7\htdocs\mejakita_list_belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 F:\XAMPP7\htdocs\mejakita_list_belajar\system\Commands\Server\rewrite.php(34): require_once('F:\\XAMPP7\\htdoc...')
+#6 {main}
+CRITICAL - 2021-04-09 08:45:21 --> syntax error, unexpected '}'
+#0 F:\XAMPP7\htdocs\mejakita_list_belajar\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('F:\\XAMPP7\\htdoc...')
+#1 F:\XAMPP7\htdocs\mejakita_list_belajar\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Mate...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Mate...')
+#3 F:\XAMPP7\htdocs\mejakita_list_belajar\app\Controllers\MateriBelajar.php(43): spl_autoload_call('App\\Models\\Mate...')
+#4 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(918): App\Controllers\MateriBelajar->create()
+#5 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MateriBelajar))
+#6 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 F:\XAMPP7\htdocs\mejakita_list_belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 F:\XAMPP7\htdocs\mejakita_list_belajar\system\Commands\Server\rewrite.php(34): require_once('F:\\XAMPP7\\htdoc...')
+#9 {main}
+CRITICAL - 2021-04-09 09:58:35 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(918): App\Controllers\PlaylistBelajar->delete('2')
+#1 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistBelajar))
+#2 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 F:\XAMPP7\htdocs\mejakita_list_belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 F:\XAMPP7\htdocs\mejakita_list_belajar\system\Commands\Server\rewrite.php(34): require_once('F:\\XAMPP7\\htdoc...')
+#5 {main}
+CRITICAL - 2021-04-09 09:59:01 --> Array to string conversion
+#0 F:\XAMPP7\htdocs\mejakita_list_belajar\app\Controllers\PlaylistBelajar.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'F:\\XAMPP7\\htdoc...', 99, Array)
+#1 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(918): App\Controllers\PlaylistBelajar->delete('2')
+#2 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistBelajar))
+#3 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\XAMPP7\htdocs\mejakita_list_belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 F:\XAMPP7\htdocs\mejakita_list_belajar\system\Commands\Server\rewrite.php(34): require_once('F:\\XAMPP7\\htdoc...')
+#6 {main}
+CRITICAL - 2021-04-09 10:00:20 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(918): App\Controllers\PlaylistBelajar->delete('2')
+#1 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistBelajar))
+#2 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 F:\XAMPP7\htdocs\mejakita_list_belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 F:\XAMPP7\htdocs\mejakita_list_belajar\system\Commands\Server\rewrite.php(34): require_once('F:\\XAMPP7\\htdoc...')
+#5 {main}
+CRITICAL - 2021-04-09 10:03:33 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(918): App\Controllers\PlaylistBelajar->delete('2')
+#1 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistBelajar))
+#2 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 F:\XAMPP7\htdocs\mejakita_list_belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 F:\XAMPP7\htdocs\mejakita_list_belajar\system\Commands\Server\rewrite.php(34): require_once('F:\\XAMPP7\\htdoc...')
+#5 {main}
+CRITICAL - 2021-04-09 10:04:23 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(918): App\Controllers\PlaylistBelajar->delete('2')
+#1 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistBelajar))
+#2 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 F:\XAMPP7\htdocs\mejakita_list_belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 F:\XAMPP7\htdocs\mejakita_list_belajar\system\Commands\Server\rewrite.php(34): require_once('F:\\XAMPP7\\htdoc...')
+#5 {main}
+CRITICAL - 2021-04-09 10:07:49 --> Undefined index: materi
+#0 F:\XAMPP7\htdocs\mejakita_list_belajar\app\Controllers\PlaylistBelajar.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'F:\\XAMPP7\\htdoc...', 99, Array)
+#1 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(918): App\Controllers\PlaylistBelajar->delete('2')
+#2 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistBelajar))
+#3 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\XAMPP7\htdocs\mejakita_list_belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 F:\XAMPP7\htdocs\mejakita_list_belajar\system\Commands\Server\rewrite.php(34): require_once('F:\\XAMPP7\\htdoc...')
+#6 {main}
+CRITICAL - 2021-04-09 10:08:05 --> Undefined index: materi
+#0 F:\XAMPP7\htdocs\mejakita_list_belajar\app\Controllers\PlaylistBelajar.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'F:\\XAMPP7\\htdoc...', 99, Array)
+#1 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(918): App\Controllers\PlaylistBelajar->delete('2')
+#2 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistBelajar))
+#3 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\XAMPP7\htdocs\mejakita_list_belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 F:\XAMPP7\htdocs\mejakita_list_belajar\system\Commands\Server\rewrite.php(34): require_once('F:\\XAMPP7\\htdoc...')
+#6 {main}
+CRITICAL - 2021-04-09 10:08:17 --> Array to string conversion
+#0 F:\XAMPP7\htdocs\mejakita_list_belajar\app\Controllers\PlaylistBelajar.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'F:\\XAMPP7\\htdoc...', 99, Array)
+#1 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(918): App\Controllers\PlaylistBelajar->delete('2')
+#2 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistBelajar))
+#3 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\XAMPP7\htdocs\mejakita_list_belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 F:\XAMPP7\htdocs\mejakita_list_belajar\system\Commands\Server\rewrite.php(34): require_once('F:\\XAMPP7\\htdoc...')
+#6 {main}
+CRITICAL - 2021-04-09 10:10:51 --> Uninitialized string offset: 1
+#0 F:\XAMPP7\htdocs\mejakita_list_belajar\app\Controllers\PlaylistBelajar.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Uninitialized s...', 'F:\\XAMPP7\\htdoc...', 99, Array)
+#1 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(918): App\Controllers\PlaylistBelajar->delete('2')
+#2 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistBelajar))
+#3 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\XAMPP7\htdocs\mejakita_list_belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 F:\XAMPP7\htdocs\mejakita_list_belajar\system\Commands\Server\rewrite.php(34): require_once('F:\\XAMPP7\\htdoc...')
+#6 {main}
+CRITICAL - 2021-04-09 10:16:03 --> The original file is not a valid file.
+#0 F:\XAMPP7\htdocs\mejakita_list_belajar\system\HTTP\Files\UploadedFile.php(172): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 F:\XAMPP7\htdocs\mejakita_list_belajar\app\Controllers\PlaylistBelajar.php(40): CodeIgniter\HTTP\Files\UploadedFile->move('../public/files...')
+#2 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(918): App\Controllers\PlaylistBelajar->create()
+#3 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistBelajar))
+#4 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 F:\XAMPP7\htdocs\mejakita_list_belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 F:\XAMPP7\htdocs\mejakita_list_belajar\system\Commands\Server\rewrite.php(34): require_once('F:\\XAMPP7\\htdoc...')
+#7 {main}
+CRITICAL - 2021-04-09 10:18:12 --> Undefined index: views
+#0 F:\XAMPP7\htdocs\mejakita_list_belajar\app\Controllers\PlaylistBelajar.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'F:\\XAMPP7\\htdoc...', 88, Array)
+#1 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(918): App\Controllers\PlaylistBelajar->update('4')
+#2 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PlaylistBelajar))
+#3 F:\XAMPP7\htdocs\mejakita_list_belajar\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\XAMPP7\htdocs\mejakita_list_belajar\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 F:\XAMPP7\htdocs\mejakita_list_belajar\system\Commands\Server\rewrite.php(34): require_once('F:\\XAMPP7\\htdoc...')
+#6 {main}
