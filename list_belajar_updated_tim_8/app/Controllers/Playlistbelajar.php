@@ -211,8 +211,9 @@ class PlaylistBelajar extends ResourceController
         {
             for ($j = 0; $j < count($count); $j++)
             {
-                if ($data[$i]['id_playlist'] == $count[$j]['id_playlist'])
-                    $data[$i]['bookmarked_count'] = $count[$i]['c'];
+                if ($data[$i]['id_playlist'] == $count[$j]['id_playlist']) {
+                    $data[$i]['bookmarked_count'] = $count[$j]['c'];
+                }
             }
         }
 
