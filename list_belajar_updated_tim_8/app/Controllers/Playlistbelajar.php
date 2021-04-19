@@ -196,7 +196,7 @@ class PlaylistBelajar extends ResourceController
         $db = \Config\Database::connect();
 
         // Get Playlist Data and Bookmarked Status
-        $query = "SELECT a.*, b.marked_at FROM `playlist_belajar` AS a LEFT JOIN `bookmark` AS b ON a.id_playlist = b.id_playlist AND b.id_akun = $id_akun ORDER BY a.id_playlist";
+        $query = "SELECT a.*, b.marked_at FROM `playlist_belajar` AS a LEFT JOIN `bookmark` AS b ON a.id_playlist = b.id_playlist AND b.id_akun = $id_akun ORDER BY created_at DESC";
 	    $data = $db->query($query)->getResultArray();
 
         // Count Total Bookmarked Playlist
